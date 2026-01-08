@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+    <h2>Choose Resolution</h2>
+    <form method="POST">
+        <button type="submit" name="resolution" value="cancellation">Cancellation</button>
+        <button type="submit" name="resolution" value="refund">Refund</button>
+        <button type="submit" name="resolution" value="replacement">Replacement</button>
+        <button type="submit" name="resolution" value="different_delivery_date">Different Delivery Date</button>
+    </form>
+</div>
+{% endblock %}

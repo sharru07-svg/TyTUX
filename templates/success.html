@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+    <h2>Success!</h2>
+    <p>Your token has been created.</p>
+    <p>Token ID: {{ token_id }}</p>
+    <button onclick="window.location.href='/'">Back to Home</button>
+</div>
+{% endblock %}

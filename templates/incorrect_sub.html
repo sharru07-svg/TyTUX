@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+    <h2>Specify Incorrect Issue</h2>
+    <form method="POST">
+        <button type="submit" name="sub_choice" value="Received wrong model / variant">Received wrong model / variant</button>
+        <button type="submit" name="sub_choice" value="Received wrong quantity">Received wrong quantity</button>
+        <button type="submit" name="sub_choice" value="Received used or opened item">Received used or opened item</button>
+        <button type="submit" name="sub_choice" value="Received incorrect accessory">Received incorrect accessory</button>
+    </form>
+</div>
+{% endblock %}

@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+    <h2>Specify Pending Issue</h2>
+    <form method="POST">
+        <button type="submit" name="sub_choice" value="Order marked as delivered but not received">Order marked as delivered but not received</button>
+        <button type="submit" name="sub_choice" value="Partial order missing">Partial order missing</button>
+        <button type="submit" name="sub_choice" value="Wrong delivery address">Wrong delivery address</button>
+        <button type="submit" name="sub_choice" value="Courier attempted delivery but failed">Courier attempted delivery but failed</button>
+    </form>
+</div>
+{% endblock %}

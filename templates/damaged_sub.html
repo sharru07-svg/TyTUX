@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+    <h2>Specify Damaged Issue</h2>
+    <form method="POST">
+        <button type="submit" name="sub_choice" value="Damaged product received">Damaged product received</button>
+        <button type="submit" name="sub_choice" value="Product damaged after first use">Product damaged after first use</button>
+        <button type="submit" name="sub_choice" value="Packaging is damaged">Packaging is damaged</button>
+        <button type="submit" name="sub_choice" value="Damaged during delivery">Damaged during delivery</button>
+    </form>
+</div>
+{% endblock %}
